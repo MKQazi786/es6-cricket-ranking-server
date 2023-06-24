@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICC Team Ranking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="./icc symbol.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1> <img src="./icc symbol.png" alt="image of ICC"> ICC Team Ranking</h1>
+    </header>
+
+    <div class="form" >
+
+        <form>
+            <label for="FormateCricket">Enter Formate of Cricket:</label> <br>
+        <input type="text" id="FormateCricket" placeholder="Enter Formate like T20 ranking... ">
+
+        <br>
+        <button type="submit" onclick="getRanking(event)">Get Ranking</button>
+
+    </form>
+        
+        <table id="resultTable" class="resultTable">
+            <h2 id="resultHeading" ></h2>
+            <th scope="col" class="POS">POS</th>
+            <th scope="col" class="TEAM">TEAM</th>
+            <th scope="col" class="RATING">RATING</th>
+            <tr>
+                <td class="POS">1.</td>
+                <td class="TEAM" id="POS_1" ></td>
+                <td class="RATING" id="RAT_1" ></td>
+            </tr>
+            <tr>
+                <td class="POS">2.</td>
+                <td class="TEAM" id="POS_2" ></td>
+                <td class="RATING" id="RAT_2" ></td>
+            </tr>
+            <tr>
+                <td class="POS">3.</td>
+                <td class="TEAM" id="POS_3" ></td>
+                <td class="RATING" id="RAT_3" ></td>
+            </tr>
+            <tr>
+                <td class="POS">4.</td>
+                <td class="TEAM" id="POS_4" ></td>
+                <td class="RATING" id="RAT_4" ></td>
+            </tr>
+            <tr>
+                <td class="POS">5.</td>
+                <td class="TEAM" id="POS_5" ></td>
+                <td class="RATING" id="RAT_5" ></td>
+            </tr>
+            <tr>
+                <td class="POS">6.</td>
+                <td class="TEAM" id="POS_6" ></td>
+                <td class="RATING" id="RAT_6" ></td>
+            </tr>
+            <tr>
+                <td class="POS">7.</td>
+                <td class="TEAM" id="POS_7" ></td>
+                <td class="RATING" id="RAT_7" ></td>
+            </tr>
+            <tr>
+                <td class="POS">8.</td>
+                <td class="TEAM" id="POS_8" ></td>
+                <td class="RATING" id="RAT_8" ></td>
+            </tr>
+            <tr>
+                <td class="POS">9.</td>
+                <td class="TEAM" id="POS_9" ></td>
+                <td class="RATING" id="RAT_9" ></td>
+            </tr>
+            <tr>
+                <td class="POS">10.</td>
+                <td class="TEAM" id="POS_10" ></td>
+                <td class="RATING" id="RAT_10" ></td>
+            </tr>
+        </table>
+
+</div>
+    
+    <footer>
+        &copy;Web and App Developer: <br> Muhammad Khubaib <br>
+        
+        <div class="icon">
+            <a href="https://www.github.com/MKQazi786"><i class="bi bi-github"></i> </a>
+            <a href="https://www.linkedin.com/in/muhammad-khubaib-mkqazi786/"><i class="bi bi-linkedin"></i> </a>
+            <a href="https://www.facebook.com/MKQazi786"><i class="bi bi-facebook"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="Ranking.js" type="module"></script>
+</body>
+
+</html>

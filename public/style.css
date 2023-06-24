@@ -1,0 +1,108 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0.1rem;
+    background-color: azure;
+    font-style: oblique;
+}
+
+.header {
+    background-color: #001036;
+    color: white;
+    padding: 0.7rem;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.header h1 {
+    margin: 0rem;
+}
+
+h1 img {
+    width: 3rem;
+}
+
+.form {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: #001036;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+#FormateCricket {
+    font-size: x-large;
+    width: 90%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-style: oblique;
+}
+
+button {
+    font-size: x-large;
+    font-style: oblique;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+}
+
+footer {
+    background-color: #001036;
+    color: white;
+    padding: 0.5rem;
+    font-style: oblique;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.7rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.icon a {
+    color: white;
+}
+
+.resultTable{
+    margin: auto;
+    background-color: aquamarine;
+    font-size: x-large;
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: black; 
+    /* display: none;  */
+}
+
+.resultTable th {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.resultTable td {
+    border: 1px solid grey;
+}
+
+.resultTable .POS{
+    padding: 0.7rem;
+}
+
+.resultTable .TEAM{
+    padding: 0rem 3.4rem 0rem 0.5rem;
+}
+
+.resultTable .RATING{
+    padding: 0rem 1.5rem 0rem 0.5rem;
+}
+
+
