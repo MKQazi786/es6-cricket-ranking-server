@@ -81,7 +81,7 @@ footer {
     border-collapse: collapse;
     border: 1px solid black;
     color: black; 
-    /* display: none;  */
+    display: none; 
 }
 
 .resultTable th {

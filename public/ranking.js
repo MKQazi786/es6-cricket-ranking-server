@@ -9,7 +9,6 @@ window.getRanking = (event) => {
         .then(function (response) {
             // handle success
             console.log(response.data);
-            console.log(resultTable);
 
             document.getElementById("resultHeading").innerHTML = `This is the Ranking of ${formate} Cricket`
             document.getElementById("POS_1").innerHTML = response.data.POS_1 
@@ -40,7 +39,7 @@ window.getRanking = (event) => {
             document.getElementById("resultHeading").innerHTML = "Error in fetching data"
         })
 
-        // let div = document.getElementById("resultTable")
-        // div.style.display = "block"
+        let div = document.getElementById("resultTable")
+        div.style.display = "inline-block"
 
 }
