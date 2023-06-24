@@ -40,7 +40,7 @@ window.getRanking = (event) => {
             document.getElementById("resultHeading").innerHTML = "Error in fetching data"
         })
 
-        let div = document.getElementById("resultTable")
+        // let div = document.getElementById("resultTable")
         // div.style.display = "block"
 
 }
